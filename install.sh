@@ -2,8 +2,6 @@
 
 # Installing Dependencies
 echo "Installing Dependencies..."
-sudo apt update
-sudo apt install git axel openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
 
 # Change workspace
 cd /workspace

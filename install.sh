@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install git axel openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
 
 # Change workspace
-ws
+cd /workspace
 
 # Cloning
 rm -rf ./Burpsuite-Professional

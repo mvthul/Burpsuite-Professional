@@ -9,7 +9,8 @@ sudo apt install git axel openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
 ws
 
 # Cloning
-git clone https://github.com/xiv3r/Burpsuite-Professional.git 
+rm -rf Burpsuite-Professional
+git clone https://github.com/mvthul/Burpsuite-Professional.git 
 cd Burpsuite-Professional
 
 # Download Burpsuite Professional

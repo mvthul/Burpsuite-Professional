@@ -5,13 +5,16 @@ echo "Installing Dependencies..."
 sudo apt update
 sudo apt install git axel openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
 
+# Change workspace
+ws
+
 # Cloning
 git clone https://github.com/xiv3r/Burpsuite-Professional.git 
 cd Burpsuite-Professional
 
 # Download Burpsuite Professional
 echo "Downloading Burpsuite Professional Latest..."
-version=2025
+version="2025.3.4"
 url="https://portswigger-cdn.net/burp/releases/download?product=pro&type=Jar"
 axel "$url" -o "burpsuite_pro_v$version.jar"
 

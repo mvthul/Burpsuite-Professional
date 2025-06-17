@@ -4,7 +4,7 @@
 echo "Installing Dependencies..."
 
 # Change workspace
-cd /workspace
+cd /opt/my-resources
 
 # Cloning
 rm -rf ./Burpsuite-Professional
